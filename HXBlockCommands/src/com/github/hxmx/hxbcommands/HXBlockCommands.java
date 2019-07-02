@@ -4,6 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import com.github.hxmx.hxbcommands.archives.HXData;
+import com.github.hxmx.hxbcommands.types.HXTypes;
 
 public class HXBlockCommands extends JavaPlugin {
 
@@ -15,12 +16,13 @@ public class HXBlockCommands extends JavaPlugin {
 
 	@Override
 	public void onDisable() {
-		log("Plugin desativado com sucesso!");
+		log("§cPlugin desativado com sucesso!");
 	}
 
 	private void init() {
 		HXData.load(this);
-		log("Plugin iniciado com sucesso!");
+		HXTypes.load();
+		log("§aPlugin iniciado com sucesso!");
 
 	}
 
