@@ -1,0 +1,9 @@
+Configuration:
+   IGNORE_OP: true
+
+Messages:
+   ERROR_COMMAND_BLOCKED: '&c&lERRO! &cEste comando está desativado neste mundo.'
+   ERROR_NO_PERMISSION: '&c&lERRO! &cVocê não possui permissão para isto.'
+   COMMAND_ADDED_SUCCESSFULLY: '&a&lPRONTO! &aComando &f%comando% adicionado à lista de bloqueio neste mundo.'
+   COMMAND_REMOVED_SUCCESSFULLY: '&a&lPRONTO! &cComando &f%comando% &cremovido da lista de bloqueio neste mundo.'
+   PLUGIN_RELOADED: '&e&lRELOADED! &aO plugin foi reiniciado com sucesso!'
